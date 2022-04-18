@@ -1,0 +1,38 @@
+html: 
+ <div class="schedule">
+                <center><table>
+                    <tr>
+                        <th>Session</th>
+                        <th>Instructor</th>
+                        <th>Time</th>
+                    </tr>
+                    <tr>
+                        <td>Beginner's Work Out</td>
+                        <td>John Doe</td>
+                        <td>Mondays @ 7:00PM CST</td>
+                    </tr>
+                    <tr>
+                        <td>Beginner's Work Out</td>
+                        <td>John Doe</td>
+                        <td>Mondays @ 7:00PM CST</td>
+                    </tr>
+                    <tr>
+                        <td>Beginner's Work Out</td>
+                        <td>John Doe</td>
+                        <td>Mondays @ 7:00PM CST</td>
+                    </tr>
+                    </tbody>
+                </table></center>
+            </div>
+
+css:
+}
+table {
+    width: 400px;
+    background-color: white;
+
+}
+
+table, th, td {
+    border: 1px solid black;
+}
