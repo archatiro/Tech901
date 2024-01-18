@@ -1,0 +1,296 @@
+html {
+    font-size: 16px;
+
+}
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: black;
+    width: 100%;
+}
+
+header {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: green;
+    height: 5em;
+    width: 100%;
+}
+
+.sticky {
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+.content {
+    padding: 16px;
+}
+
+.sticky + .content {
+    padding-top: 60px;
+}
+nav {
+    background-color: green;
+    border: 1px solid blue;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.nav_select {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    align-items: center;
+    width: 78%;
+}
+
+.nav_select li {
+    align-self: center;
+}
+
+.nav_select li a {
+    color: white;
+    text-decoration: none;
+}
+
+.socials {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    flex-direction: row;
+    justify-self: flex-end;
+}
+
+nav ul {
+    border: 1px solid red;
+    list-style-type: none;
+}
+nav ul li {
+    display: inline;
+}
+
+.first-img {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.first-img img {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+#msg  {
+    background-color: black;
+    color: white;
+    font-size: 2em;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;  
+}
+
+#msg li {
+    line-height: .25em;
+    list-style-type: none;
+    text-align: center;
+}
+#msg s {
+    text-decoration-color: lime;
+    text-decoration-thickness: .25em;
+}
+
+#msg h4 {
+}
+#msg li, h4 {
+    margin:0 auto;
+    text-align: center;
+    width: 55%;
+}
+
+
+#last {
+    border: 2px solid blue;
+    padding-bottom: 55px;
+}
+.sticker {
+    width: 100%;
+}
+.embed1 {
+    border: 1px solid black;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    background-color: aqua;
+}
+
+.embed2 {
+    border: 1px solid red;
+    background-color: yellow;
+    width: 50vw;
+}
+
+.vids {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    padding-left: 25%;
+    padding-right: 25%;
+    border: 10px solid brown;
+}
+.lemon_buy {
+    background-color: green;
+}
+
+.lemon {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: 1px solid black;
+    height: auto;
+}
+
+.purchase {
+    background-color: green;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+.purchase li {
+    font-size: 2.5em;
+    list-style-type: none;
+    line-height: .75em;
+}
+
+.purchase ul {
+    padding-top: 12%;
+}
+
+.txt_button {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    align-self: center;
+    justify-self: center;
+}
+
+#button{
+    width: 25%;
+    height: auto;
+    align-self: center;
+    padding: 1% 1%;
+    background-color: green;
+    border: 1px solid white;
+    color: white;
+}
+
+#button:hover {
+    background-color: black;
+}
+
+.follow-us {
+    display: flex;
+    border-top: 20px solid white;
+    background-color: black;
+    justify-content: center;
+    padding-top: 2%;
+    flex-direction: column;
+    margin: 0;
+}
+
+.txt-container {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    border: 5px solid white;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.img-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 15rem;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    border: 1px solid blue;
+}
+
+.insta-img {
+    width: 3%;
+    display: flex;
+    justify-self: center;
+    align-self: center;
+}
+
+a.hover {
+    color: black;
+}
+
+.spotify_form {
+    background-color: grey;
+    display: flex;
+    flex-direction: row;
+    border: 5px solid red;
+    justify-content: space-around;
+}
+
+
+.first-container {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    width: 20%;
+    margin: 5%;
+}
+
+.spotify-frame {
+    display: flex;
+    height: 100%;
+}
+
+.form {
+    border: 2px solid green;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+footer {
+    background-color: green;
+    padding-top: 7%;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.flavors li {
+    list-style-type: none;
+}
+
+.links {
+    border: 5px solid black;
+}
+
+.buying li {
+    list-style-type: none;
+}
+
+a :active {
+    color: black;
+}

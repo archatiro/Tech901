@@ -1,0 +1,74 @@
+html {
+    font-size: 12pt;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+#one {
+ background-color: green;
+ height: 10rem;
+}
+
+#two {
+ background-color: pink;
+ height: 10rem;
+}
+
+#three {
+background-color: blue;
+height: 10rem;
+}
+
+header, footer {
+    background-color: yellow;
+    height: 10rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+@media screen and (min-width: 900px) {
+    main {
+        height: 40rem;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    #one {
+        width: 70%;
+        height: 20rem;
+       }
+       
+       #two {
+        width: 70%;
+        height: 20rem;
+       }
+       
+       #three {
+           width: 30%;
+           height: 40rem;
+       }
+}
+
+@media screen and (min-width: 600px) and (max-width: 900px) {
+    main {
+        height: 40rem;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    #one {
+        height: 50%;
+    }
+    #two {
+        height: 50%;
+    }
+
+    #three {
+        height: 100%;
+    }
+}
+

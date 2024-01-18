@@ -1,0 +1,148 @@
+body {
+    margin:0;
+    font-family:sans-serif;
+}
+.top {
+    background-color: gray;
+    display:flex;
+
+}
+.top woah {
+    background-color: black;
+}
+
+.header {
+    background-color: #283593;
+    color:white;
+    display: flex;
+    justify-content: left;
+    padding: 25px;
+    border: 1px solid #283593;
+
+}
+.blueimage {
+    background-color:#283593;
+}
+
+.nav a {
+    color:white;
+    text-decoration: none;
+}
+.nav {
+    list-style: none;
+    margin:0;
+    color:white;
+    display:flex;
+    border:none;
+    
+}
+
+button {
+    background-color: #283593;
+    border: none;
+    color:white;
+    margin:0;
+    top: 45px;
+}
+.sponsor {
+    background-color:deepskyblue;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    border: 1px  solid deepskyblue;
+}
+
+.sponsor img {
+    margin-right: 192px;
+}
+
+.sponsor p {
+    float: left;
+}
+
+.terminix {
+    width: 10%;
+    height: 10%;
+    margin-top: 24px;
+}
+
+.schedule h1{
+    margin-top:50px;
+    margin-bottom:50px
+}
+
+center {
+    margin-bottom: 20px;
+}
+.selector {
+    overflow:hidden;
+    margin-bottom:10px;
+}
+
+.selector a {
+    text-decoration: none;
+}
+.selector button {
+    display:inline-block;
+    border-color:black;
+    background-color: gray;
+
+
+}
+
+.Away {
+    border-bottom-color:red;
+    background-color:#F6F2F1;
+    margin-left:50px;
+    margin-right:50px;
+    margin-top:10px;
+    display:flex;
+}
+.Away p {
+    margin-top:12px;
+}
+.Away h6 {
+    font-size:medium;
+}
+.Away h7 {
+    background-color:red;
+    color:#fff;
+    margin-top:12px;
+    margin-bottom:72px;
+}
+
+
+.Home {
+    border: 1px solid  lightblue;
+    background-color:#F6F2F1;
+    margin-left:50px;
+    margin-right:50px;
+    margin-top:10px;
+    display: flex;
+}
+
+.Home h7 {
+    background-color:cyan;
+    color:#fff;
+    margin-top:12px;
+    margin-bottom:142px;
+}
+
+.Home h6 {
+ font-size:medium; 
+}
+
+.Home .tickets {
+    cursor: pointer;
+    margin-top:50px;
+    margin-bottom:50px;
+    font-size:medium;
+    border-color:black;
+    background-color:#F6F2F1;
+    margin-left:65%;
+    border:1px solid black;
+}
+.tickets a {
+    text-decoration: none;
+}
+
